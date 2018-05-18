@@ -1,0 +1,460 @@
+{
+  "data": {
+    "auth": {
+      "diasoft": {
+        "login": {
+          "result": true
+        }
+      }
+    },
+    "entity": {
+      "AdresStrahovatelya": {
+        "IDObekta": 14647223,
+        "KodStrany": "643",
+        "KodRegiona": "77",
+        "KodRajona": "000",
+        "KodGoroda": "000",
+        "Osnovnoj": false,
+        "KodMesta": "000",
+        "KodUlicy": "1048",
+        "Dom": "7",
+        "Korpus": null,
+        "Stroenie": null,
+        "Kvartira": "45",
+        "PochtovyjIndeks": "115533",
+        "Adres": "115533, РОССИЯ, Московская обл, Дзержинский г, ул Ленина, д. 20, кв. 8",
+        "TipAdresa": {
+          "IDObekta": 1,
+          "Naim": "Адрес прописки"
+        },
+        "__typename": "Sogins_Adres"
+      },
+      "CFO": null,
+      "DataNachalaDejstviya": "2018-05-19T00:00:00",
+      "DataNachalaPeriodaStrahovaniya": null,
+      "DataOkonchaniyaDejstviya": "2019-05-18T00:00:00",
+      "DataOkonchaniyaPeriodaStrahovaniya": null,
+      "DataPodpisaniya": "2018-04-19T00:00:00",
+      "DataPervogoPlatezha": "2018-04-19T00:00:00",
+      "DataVstVSilu": "2018-04-19T18:05:34",
+      "SeriyaPredDog": null,
+      "NomerPredDog": null,
+      "PINachalo1": "2018-05-19T00:00:00",
+      "PINachalo2": null,
+      "PINachalo3": null,
+      "PIOkonchanie1": "2019-05-18T00:00:00",
+      "PIOkonchanie2": null,
+      "PIOkonchanie3": null,
+	  "SobstvDogStrah": {
+        "IDObekta": 81652878,
+        "Nomer": "0396943959",
+        "Seriya": "ЕЕЕ"
+      },
+      "StrahovshhikPoPredDog": {
+        "IDObekta": 154841,
+        "OGRN": "1027700032700",
+        "PolnoeNaimLica": "ООО \"СК \"Согласие\""
+      },
+      "DataVydachiPolisa": "2018-04-19T00:00:00",
+      "IDRaschetaVSistemeDiKBM": "5485999210",
+      "VladenieTS": 0,
+      "PriznakStrahPricep": null,
+      "VladenieTSInoe": null,
+      "GrubyeNarusheniya": null,
+      "RegionStrahovaniya": {
+        "IDObekta": 33
+      },
+      "ZhurnalUchetaDogovorov": [],
+      "DerzhatelBSO": {
+        "IDObekta": 41732,
+        "__typename": "Sogins_ProdavcyOSAGO"
+      },
+      "Franshiza": null,
+      "IDObekta": 96768074,
+      "Kurator": null,
+      "MetodNumeracii": 0,
+      "Nomer": "1005190418/ЧБ",
+      "NomerPolisa": "1005190418/ЧБ",
+      "VoditeliDogStrah": [
+        {
+          "Vozrast": 36,
+          "Stazh": 18,
+          "Voditel": {
+            "IDObekta": 10037703,
+            "NaimObekta": "Тест-П Тест-П Тест-П",
+            "DataNachalaStazha": "1999-08-01T00:00:00",
+            "FL": {
+              "NaFa": "Тест-П",
+              "Imya": "Тест-П",
+              "Otchestvo": "Тест-П",
+              "DataRozhdeniya": "1981-11-11T00:00:00"
+            },
+            "Prava": {
+              "Seriya": "1111",
+              "Nomer": "123123",
+              "Vydan": "ГИБДД",
+              "Data": "1999-08-01T00:00:00"
+            },
+            "Narusheniya": false,
+            "PrichinaIzmeneniyaKBM": null,
+            "Primechanie": null
+          }
+        }
+      ],
+      "DopuskKUpravDlyaVsehTS": false,
+      "ObektStrahPoDog": [
+        {
+          "DogStrah": {
+            "IDObekta": 96768074,
+            "__typename": "Sogins_DogStrah"
+          },
+          "IDObekta": 20986698,
+          "DataNachala": "2018-04-19T18:05:34",
+          "DataOkonchaniya": "2019-04-18T00:00:00",
+          "ObektStrah": {
+            "MarkaTS": {
+              "NaimObekta": "Kia",
+              "IDObekta": 4285
+            },
+            "ModelTS": {
+              "NaimObekta": "Kia RIO",
+              "IDObekta": 21601
+            },
+            "TipTS": {
+              "NaimObekta": "Легковые автомобили",
+              "IDObekta": 2
+            },
+			 "Vladelec": {
+              "NaFa": "Тестфамилия",
+              "Imya": "Тестимя",
+              "Otchestvo": "Тестотчество",
+              "DataRozhdeniya": "1987-07-08T00:00:00",
+              "Kontakty": [
+                {
+                  "IDObekta": 4384333,
+                  "VidKontaktov": {
+                    "IDObekta": 3,
+                    "Naim": "Телефон мобильный"
+                  },
+                  "Osnovnoj": null,
+                  "Zarubezhnyj": false,
+                  "Znachenie": "9005001010",
+                  "Dobavochnyj": null
+                },
+                {
+                  "IDObekta": 4897784,
+                  "VidKontaktov": {
+                    "IDObekta": 3,
+                    "Naim": "Телефон мобильный"
+                  },
+                  "Osnovnoj": null,
+                  "Zarubezhnyj": false,
+                  "Znachenie": "9004586810",
+                  "Dobavochnyj": null
+                }
+              ]
+            },
+            "VIN": "32402039402930492",
+            "NomerDvigatelya": null,
+            "ChisloMest": null,
+            "NomerKuzova": null,
+            "DataVypuska": null,
+            "GodPostrojki": 2018,
+            "MoshhnostVt": 73.53,
+            "Moshhnost": 100,
+            "MaksMassa": null,
+            "SledovanieKMestuRegistracii": false,
+            "VidDokTS": {
+              "NaimObekta": "Паспорт ТС",
+              "IDObekta": 2
+            },
+            "SeriyaSvidetOReg": "4504",
+            "DataSvidetOReg": "2018-03-31T00:00:00",
+            "DokPoTS": {
+              "NaimObekta": "",
+              "Seriya": null,
+              "DataSledTO": null,
+              "DataVydachi": null,
+              "VidDokPoTS": {
+                "NaimObekta": "Диагностическая карта",
+                "IDObekta": 14
+              },
+              "DataProhozhdeniyaTO": null,
+              "Nomer": null
+            },
+            "NomerSvidetOReg": "304506",
+            "NomerShassi": null,
+            "RegistrZnak": null,
+            "CelIspolzovaniyaTS": {
+              "NaimObekta": "001 Личные",
+              "IDObekta": 1
+            },
+            "MarkaPTS": "Kia",
+            "ModelPTS": "RIO",
+            "KategoriyaTS_OSAGO": "B",
+            "IDObekta": 13960442,
+            "AdresSobstvennika": {
+              "IDObekta": 14647223,
+              "KodStrany": "643",
+              "KodRegiona": "77",
+              "KodRajona": "000",
+              "KodGoroda": "000",
+              "Osnovnoj": false,
+              "KodMesta": "000",
+              "KodUlicy": "1048",
+              "Dom": "7",
+              "Korpus": null,
+              "Stroenie": null,
+              "Kvartira": "45",
+              "PochtovyjIndeks": "115533",
+              "Adres": "115533, РОССИЯ, Москва г, ул Высокая, д. 7, кв. 45",
+              "TipAdresa": {
+                "IDObekta": 1,
+                "Naim": "Адрес прописки"
+              }
+            },
+            "UdostovSobstvennika": {
+              "IDObekta": 19666384,
+              "Nomer": "458745",
+              "Vydan": "УФМС",
+              "Seriya": "7908",
+              "FL": {
+                "NaFa": "Тестфамилия",
+                "Imya": "Тестимя",
+                "Otchestvo": "Тестотчество",
+                "DataRozhdeniya": "1987-07-08T00:00:00"
+              },
+              "Data": "2017-09-01T00:00:00",
+              "Vid": {
+                "NaimObekta": "21 Паспорт гражданина РФ",
+                "IDObekta": 6
+              }
+            },
+            "TranzitnyjRegNomer": false,
+            "__typename": "Sogins_ObektStrah"
+          },
+          "Premiya": 16307.28,
+          "PremiyaStrahovayaPoTarifam": 16307.28,
+          "SokrSushhnostiObekta": "ОбъектСтрахПоДог",
+          "VidObektaStrah": {
+            "IDObekta": 526,
+            "NaimObekta": "Транспортное средство",
+            "__typename": "Sogins_VidObektaStrah"
+          },
+          "VidStrah": null,
+          "__typename": "Sogins_ObektStrahPoDog"
+        }
+      ],
+      "Organizaciya": {
+        "IDObekta": 28,
+        "__typename": "Sogins_StrukturaOrganizacii"
+      },
+      "OsobyeOtmetki": "<--Контакты:При страховых событиях обращаться по тел. 8-495-739-01-01, 8-800-755-00-01--><--CCM_Marks:Расчетный КБМ - 1-->",
+      "PeriodichnostOplaty": null,
+      "PlatezhiPoDogovoru": [],
+      "Podrazdelenie": {
+        "IDObekta": 421,
+        "__typename": "Sogins_Podrazdelenie"
+      },
+      "Premiya": 16307.28,
+      "PremiyaStrahovayaPoTarifam": 16307.28,
+      "ProdavecOSAGO": {
+        "KodProdavca": "117317",
+        "IDObekta": 41732,
+        "__typename": "Sogins_ProdavcyOSAGO"
+      },
+      "ProdavecOSAGO2": null,
+      "SoglasovanAnderrajter": null,
+      "SokrSushhnostiObekta": "ДогСтрах",
+      "SozdanCherezWEB": 2,
+      "Status": {
+        "IDObekta": 52,
+        "Naim": "Предварительный",
+        "__typename": "Sogins_StatusDokumenta"
+      },
+      "Strahovatel": {
+        "IDObekta": 16841258,
+        "NaFa": "Бобров",
+		"Imya": "Михаил", 
+        "Otchestvo": "Алексеевич",
+        "Kontakty": [
+          {
+            "IDObekta": 4384333,
+            "VidKontaktov": {
+              "IDObekta": 3,
+              "Naim": "Телефон мобильный"
+            },
+            "Osnovnoj": null,
+            "Zarubezhnyj": false,
+            "Znachenie": "9005001010",
+            "Dobavochnyj": null
+          },
+          {
+            "IDObekta": 4897784,
+            "VidKontaktov": {
+              "IDObekta": 3,
+              "Naim": "Телефон мобильный"
+            },
+            "Osnovnoj": null,
+            "Zarubezhnyj": false,
+            "Znachenie": "9263695242",
+            "Dobavochnyj": null
+          }
+        ],
+        "Adresa": [
+          {
+            "KodStrany": "643",
+            "KodRegiona": "77",
+            "KodRajona": "000",
+            "KodGoroda": "000",
+            "Osnovnoj": false,
+            "KodMesta": "000",
+            "KodUlicy": "1048",
+            "Dom": "7",
+            "Korpus": null,
+            "Stroenie": null,
+            "Kvartira": "45",
+            "PochtovyjIndeks": "115533",
+            "Adres": "115533, РОССИЯ, Москва г, ул Высокая, д. 7, кв. 45",
+            "TipAdresa": {
+              "IDObekta": 1,
+              "Naim": "Адрес прописки"
+            }
+          },
+          {
+            "KodStrany": "643",
+            "KodRegiona": "77",
+            "KodRajona": "000",
+            "KodGoroda": "000",
+            "Osnovnoj": false,
+            "KodMesta": "000",
+            "KodUlicy": "1048",
+            "Dom": "4",
+            "Korpus": null,
+            "Stroenie": null,
+            "Kvartira": "54",
+            "PochtovyjIndeks": "115533",
+            "Adres": "115533, РОССИЯ, Москва г, ул Высокая, д. 4, кв. 54",
+            "TipAdresa": {
+              "IDObekta": 1,
+              "Naim": "Адрес прописки"
+            }
+          },
+          {
+            "KodStrany": "643",
+            "KodRegiona": "77",
+            "KodRajona": "000",
+            "KodGoroda": "000",
+            "Osnovnoj": false,
+            "KodMesta": "000",
+            "KodUlicy": "1048",
+            "Dom": "43",
+            "Korpus": null,
+            "Stroenie": null,
+            "Kvartira": "5",
+            "PochtovyjIndeks": "115533",
+            "Adres": "115533, РОССИЯ, Москва г, ул Высокая, д. 43, кв. 5",
+            "TipAdresa": {
+              "IDObekta": 1,
+              "Naim": "Адрес прописки"
+            }
+          }
+        ],
+        "DataRozhdeniya": "1983-11-27T00:00:00",
+        "Udostovereniya": [
+          {
+            "Nomer": "458745",
+            "Vydan": "УФМС",
+            "Seriya": "7908",
+            "Data": "2017-09-01T00:00:00",
+            "Vid": {
+              "NaimObekta": "21 Паспорт гражданина РФ",
+              "IDObekta": 6
+            }
+          },
+          {
+            "Nomer": "222222",
+            "Vydan": "УФМС",
+            "Seriya": "4849",
+            "Data": "2018-04-09T00:00:00",
+            "Vid": {
+              "NaimObekta": "21 Паспорт гражданина РФ",
+              "IDObekta": 6
+            }
+          },
+          {
+            "Nomer": "654768",
+            "Vydan": "УФМС",
+            "Seriya": "3564",
+            "Data": "2018-04-05T00:00:00",
+            "Vid": {
+              "NaimObekta": "017 Водительское удостоверение РФ",
+              "IDObekta": 15
+            }
+          },
+          {
+            "Nomer": "532009",
+            "Vydan": "УФМС",
+            "Seriya": "3124",
+            "Data": "2018-04-01T00:00:00",
+            "Vid": {
+              "NaimObekta": "21 Паспорт гражданина РФ",
+              "IDObekta": 6
+            }
+          }
+        ]
+      },
+      "Strahovshhik": {
+        "IDObekta": 154841,
+        "__typename": "Sogins_YUL"
+      },
+      "StrahProdukt": {
+        "IDObekta": 86,
+        "__typename": "Sogins_StrahProdukt"
+      },
+      "Summa": 400000,
+      "UdostoverenieStrahovatelya": {
+        "IDObekta": 19666384,
+        "Nomer": "375598",
+        "Vydan": "Дзержинским отделом милиции Люберецкого УВД Московской области",
+        "Seriya": "5006",
+        "Data": "2004-11-02T00:00:00",
+        "Vid": {
+          "NaimObekta": "21 Паспорт гражданина РФ",
+          "IDObekta": 6
+        },
+        "__typename": "Sogins_UdostovereniyaFL"
+      },
+      "UslovieVstDogVSilu": {
+        "IDObekta": 5,
+        "__typename": "Sogins_UslovieVstDogVSilu"
+      },
+      "ValyutaOplaty": {
+        "IDObekta": 1,
+        "NaimObekta": "Российский рубль",
+        "Sokr": "RUR",
+        "__typename": "Sogins_Valyuta"
+      },
+      "ValyutaOtvetstvennosti": {
+        "IDObekta": 1,
+        "NaimObekta": "Российский рубль",
+        "Sokr": "RUR",
+        "__typename": "Sogins_Valyuta"
+      },
+      "VidDok": {
+        "IDObekta": 143,
+        "__typename": "Sogins_VidDokNaVhOplatu"
+      },
+      "VidStrah": {
+        "IDObekta": 257,
+        "Naim": "Обязательное страхование ГО владельцев транспортных средств",
+        "__typename": "Sogins_VidStrah"
+      },
+      "ZHRAKuratorDogovora": {
+        "IDObekta": 14860,
+        "__typename": "Sogins_ShtatnyjSotrudnik"
+      },
+      "__typename": "Sogins_DogStrah"
+    }
+  }
+}

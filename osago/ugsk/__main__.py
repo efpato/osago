@@ -74,7 +74,25 @@ def main():
         vehicle = data['vehicle']
         if vehicle['purposeOfUse'] == 'Личные':
             page.purpose.select_by_text('Личная')
-        # else other variants
+        elif vehicle['purposeOfUse'] == 'Учебная езда':
+            page.purpose.select_by_text('Учебная езда')
+        elif vehicle['purposeOfUse'] == 'Регулярные пассажирские перевозки':
+            page.purpose.select_by_text(('Регулярные пассажирские перевозки / '
+                                         'перевозки пассажиров по заказам'))
+        elif vehicle['purposeOfUse'] == 'Такси':
+            page.purpose.select_by_text('Такси')
+        elif vehicle['purposeOfUse'] == 'Прокат краткосрочная аренда':
+            page.purpose.select_by_text('Прокат / краткосрочная аренда')
+        elif vehicle['purposeOfUse'] == 'Дорожные и специальные ТС':
+            page.purpose.select_by_text('Дорожные и специальные ТС')
+        elif vehicle['purposeOfUse'] == 'Экстренные и коммунальные службы':
+            page.purpose.select_by_text('Экстренные и коммунальные службы')
+        elif vehicle['purposeOfUse'] == ('Перевозка опасных и легко '
+                                         'воспламеняющихся грузов'):
+            page.purpose.select_by_text(('Перевозка опасных и легко '
+                                         'воспламеняющихся грузов'))
+        elif vehicle['purposeOfUse'] == 'Прочее':
+            page.purpose.select_by_text('Прочее')
         if vehicle['with_trailer']:
             page.with_trailer()
         page.mark.select_by_text(vehicle['mark'])
@@ -84,9 +102,27 @@ def main():
         page.model = vehicle['model']
         page.year = vehicle['year']
         if page.category.enabled:
-            if vehicle['type'] == 'Легковые автомобили':
+            if vehicle['type'] == 'Мотоциклы, мопеды и легкие квадрициклы':
+                page.category.select_by_text('Мотоцикл (A)')
+            elif vehicle['type'] == 'Мопеды, велосипеды':
+                page.category.select_by_text('Мопед (М)')
+            elif vehicle['type'] == 'Легковые автомобили':
                 page.category.select_by_text('Легковое (B, BE)')
-            # else other variants
+            elif vehicle['type'] == 'Грузовые автомобили':
+                page.category.select_by_text('Грузовое (C, CE)')
+            elif vehicle['type'] == 'Автобусы':
+                page.category.select_by_text('Автобус (D, DE)')
+            elif vehicle['type'] == 'Прицепы к грузовым автомобилям':
+                page.category.select_by_text('Прицеп (E)')
+            elif vehicle['type'] == 'Трамваи':
+                page.category.select_by_text('Трамвай (Tm)')
+            elif vehicle['type'] == 'Троллейбусы':
+                page.category.select_by_text('Троллейбус (Tb)')
+            elif vehicle['type'] == ('Тракторы, самоходные дорожно-'
+                                     'строительные и иные машины, за '
+                                     'исключением ТС, не имеющих колесных '
+                                     'движ'):
+                page.category.select_by_text('Трактор / Спецтехника')
         page.power = vehicle['power']
         page.power_kw = vehicle['powerKw']
         page.max_mass = vehicle['maxMass']
@@ -97,7 +133,12 @@ def main():
             page.russia()
         if vehicle['document']['type'] == 'Паспорт ТС':
             page.doc_type.select_by_text('Паспорт ТС (ПТС)')
-        # else other variants
+        elif vehicle['document']['type'] == 'Электронный ПТС':
+            page.doc_type.select_by_text('Электронный ПТС (ЭПТС)')
+        elif vehicle['document']['type'] == 'Свидетельство о регистрации ТС':
+            page.doc_type.select_by_text('Свид-во о регистрации (СТС)')
+        elif vehicle['document']['type'] == 'Техпаспорт':
+            page.doc_type.select_by_text('Технический паспорт')
         page.doc_series = vehicle['document']['series']
         page.doc_number = vehicle['document']['number']
         page.doc_date_of_issue = vehicle['document']['dateOfIssue'].strftime(
